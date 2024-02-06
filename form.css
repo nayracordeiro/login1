@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Rampart+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Pacifico&family=Rampart+One&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;   
+}
+
+body {
+    background-color: rgb(255, 195, 228);
+}
+
+.main-login {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.left-login {
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: "Rampart One", sans-serif;
+    font-weight: 700;
+    color: rgb(114, 2, 58)
+}
+
+.left-login > h1 {
+    font-size: 28pt;
+}
+
+.right-login {
+    font-family: "Fira Sans", sans-serif;
+    color: rgb(114, 2, 58);
+    width: 50vw;    
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-login {
+    width: 300px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 30px 35px;
+    background-color: rgb(231, 51, 141);
+    border-radius: 25px;
+    box-shadow: 0px 10px 40px rgb(196, 70, 143);
+}
+
+.textfield {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    margin: 10px;
+}
+
+.textfield > input {
+    width: 100%;
+    border: none;
+    border-radius: 2px;
+    padding: 15px;
+    background: rgb(255, 160, 207);
+    outline: none;
+    box-sizing: border-box;
+}
+
+.textfield > input::placeholder {
+    color: rgb(196, 70, 143);
+}
+
+button {
+    width: 100%;
+    padding: 16px 0px;
+    margin: 25px;
+    border: none;
+    border-radius: 5px;
+    box-sizing: border-box;
+    outline: none;
+    text-transform: uppercase;
+    font-weight: 800;
+    letter-spacing: 1px;
+    color: rgb(196, 70, 143);
+    cursor: pointer;
+    transition: background-color 0.5s ease;
+
+}
+
+button:hover {
+    background-color: rgb(231, 163, 203);
+}
